@@ -1,0 +1,189 @@
+a, a:link, a:active {
+  text-decoration : none;
+}
+a:hover {
+  text-decoration : underline;
+}
+a.img-only, div.img-only {
+  color : transparent;
+}
+input:focus {
+  outline : none;
+}
+* {
+  margin             : 0;
+  padding            : 0;
+  position           : relative;
+  font-family        : Arial, 'STHeiti', 'Microsoft YaHei', '微软雅黑', 'SimHei', sans-serif;
+  -webkit-box-sizing : border-box;
+  -moz-box-sizing    : border-box;
+  box-sizing         : border-box;
+  -webkit-user-drag  : none;
+}
+.invisible {
+  visibility : hidden;
+}
+ul {
+  list-style : none;
+}
+.clearfix:before,
+.clearfix:after {
+  display : table;
+  content : " ";
+}
+.clearfix:after {
+  clear : both;
+}
+.container {
+  width  : 960px;
+  margin : auto;
+}
+.header-bar {
+  height     : 12px;
+  background : #a6a6a8;
+}
+.header-title-container {
+  margin-top : 10px;
+}
+.header-title {
+  width         : 390px;
+  float         : left;
+  border-bottom : 4px solid #E24036;
+  text-align    : center;
+  padding       : 25px 0 13px 0;
+}
+.header-title > a {
+  margin : 0 10px;
+}
+.header-logo {
+  width        : 178px;
+  float        : left;
+  text-align   : center;
+  border-left  : 1px solid #A7A8A9;
+  border-right : 1px solid #A7A8A9;
+  padding      : 18px 0 8px 0;
+}
+.banner {
+  margin-top : 30px;
+}
+.banner .no-wrapping {
+  position : absolute;
+  left     : 0;
+  top      : 0;
+  z-index  : 2;
+}
+.banner .banner-container {
+  overflow : hidden;
+  width    : 960px;
+  height   : 445px;
+}
+.banner-wrapper {
+  width : 10000px;
+}
+.banner .banner-wrapper > li {
+  float  : left;
+  width  : 960px;
+  height : 445px;
+}
+.banner-control {
+  text-align : center;
+  font-size  : 0;
+  margin-top : 15px;
+}
+.banner-control > a {
+  margin  : 0 6px;
+  display : inline-block;
+}
+.footer {
+  margin-top : 20px;
+  font-size  : 12px;
+}
+.footer a {
+  color : #515152;
+}
+.footer .line-vertical {
+  display          : inline-block;
+  width            : 1px;
+  background-color : #4d4d4d;
+  height           : 16px;
+  top              : 2px;
+}
+.footer-container {
+  padding          : 18px 30px;
+  background-color : #d8d9da;
+}
+.footer-container .footer-content {
+  z-index : 2;
+  float   : left;
+}
+.footer-container .arrival span {
+  top : -23px;
+}
+.footer-container .search {
+  margin-left : 50px;
+  padding-top : 15px;
+}
+.search-group {
+  border        : 1px solid #4D4D4D;
+  border-radius : 4px;
+  padding       : 3px;
+  display       : inline-block;
+}
+.search-group .icon-search {
+  top    : 2px;
+  cursor : pointer;
+}
+.search-group form {
+  display : inline-block;
+}
+.search-group form input {
+  border           : none;
+  background-color : transparent;
+  margin-left      : 4px;
+  padding          : 0;
+  font-size        : 14px;
+}
+.footer-container .contact {
+  margin-left : 50px;
+  padding-top : 22px;
+}
+.footer-container .contact > span {
+  margin : 0 8px;
+}
+.footer-container .share {
+  margin-left : 131px;
+  padding-top : 17px;
+}
+.footer-container .share a {
+  margin : 0 5px;
+}
+.footer-container .copyright {
+  float      : none;
+  text-align : center;
+}
+.erweima {
+  position         : absolute;
+  left             : 104px;
+  top              : -100px;
+  width            : 100px;
+  height           : 100px;
+  background-color : #ffffff;
+  display          : none;
+}
+.erweima img {
+  position : absolute;
+  left     : 0;
+  top      : 0;
+}
+.erweima .down-arrow {
+  position    : absolute;
+  bottom      : -12px;
+  left        : 50%;
+  margin-left : -9px;
+  width       : 18px;
+  height      : 12px;
+  background  : url('../../c/images/icons/overbox-cd-icon.png') no-repeat;
+}
+.device-radio {
+  display : none;
+}
