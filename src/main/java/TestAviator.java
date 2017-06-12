@@ -18,6 +18,7 @@ public class TestAviator {
 //        String result = (String) AviatorEvaluator.exec(" 'hello ' + name + ': ' + n", name, name2);
 
 
+        System.out.println(1);
         System.out.println(AviatorEvaluator.execute("string.contains('test', string.substring('hello', 1, 2))"));
 
     }
