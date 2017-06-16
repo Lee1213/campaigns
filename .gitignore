@@ -11,6 +11,8 @@ target
 *.patch
 *.diff
 *.err
+campaigns.iml
+working.xml
 
 # temp file for git conflict merging
 *.orig
