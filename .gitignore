@@ -1,7 +1,7 @@
 .idea
 *.idea
 *.iml
-.settings
+settings
 target
 .project
 .classpath
@@ -40,6 +40,4 @@ thumbs.db
 .hg
 .svn
 .CVS
-classes/
-src/main/java/cn/dolphin/campaigns/form/
-src/main/java/cn/dolphin/campaigns/interceptor/
+

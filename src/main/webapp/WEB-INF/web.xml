@@ -4,7 +4,7 @@
     <display-name>campaigns</display-name>
     <context-param>
         <param-name>contextPath</param-name>
-        <param-value>campaignnew</param-value>
+        <param-value>campaigns</param-value>
     </context-param>
     <context-param>
         <param-name>monitorType</param-name>
