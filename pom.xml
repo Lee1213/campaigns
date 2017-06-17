@@ -347,33 +347,6 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
             </plugin>
-            <!--UT coverage -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <instrumentation>
-                        <excludes>
-                            <!--exclude example -->
-                            <!--<exclude>com/xxx/xxx/*.class</exclude> -->
-                        </excludes>
-                    </instrumentation>
-                    <formats>
-                        <format>xml</format>
-                        <format>html</format>
-                    </formats>
-                    <check/>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>clean</phase>
-                        <goals>
-                            <goal>cobertura</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
